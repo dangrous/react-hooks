@@ -3,7 +3,7 @@
 
 import * as React from 'react'
 
-function Greeting({initialName = ''}) {
+function Greeting(props) {
   const [name, setName] = React.useState(props.initialName);
 
   function handleChange(event) {
